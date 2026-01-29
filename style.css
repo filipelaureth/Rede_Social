@@ -1,0 +1,36 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,body{
+    height:100vh;
+    width:100vw;
+    background-color: black;
+}
+body{
+    background:url("imagens/fundo-madeira.jpg") no-repeat center center;
+    background-size: cover;
+    background-attachment:fixed;
+}
+main{
+    position:relative;
+    height:100vh;
+}
+section#telefone{
+    position: absolute;
+    height:525px;
+    width:260px;
+    transform:translate(-50% , -50%);
+    top:50%;
+    left:50%;
+    background:url("imagens/frame-iphone-dimencionado.png") no-repeat ;
+}
+#tela{
+    position:relative;
+    top:68px;
+    left:19px;
+    width:222px;
+    height:392px;
+}
